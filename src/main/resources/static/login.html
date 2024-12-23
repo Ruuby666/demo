@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Formulario de Login</title>
+  <link rel="stylesheet" href="css/login.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+</head>
+
+<body>
+  <h2>Formulario de Login</h2>
+  <!-- <form class="cmxform" id="loginForm" method="get" action="">
+    <fieldset>
+      <label for="email">Email:</label>
+      <input type="email" id="email" />
+
+      <label for="password">Contraseña:</label>
+      <input type="password" id="password" />
+
+      <label>
+        <input type="checkbox" id="acceptTerms" />
+        Aceptar condiciones
+      </label>
+
+      <label>
+        <input type="checkbox" id="subscribeNewsletter" />
+        Suscribirse al newsletter
+      </label>
+
+      <button type="submit">Enviar</button>
+    </fieldset>
+  </form> -->
+
+  <form class="cmxform" id="signupForm" method="get" action="" novalidate="novalidate">
+    <fieldset>
+      <legend>Validating a complete form</legend>
+      <p>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email">
+      </p>
+      <p>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password">
+      <div data-lastpass-icon-root=""
+        style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;">
+      </div>
+      </p>
+      <p>
+        <label for="agree">Please agree to our policy</label>
+        <input type="checkbox" class="checkbox" id="agree" name="agree">
+      </p>
+      <p>
+        <label for="newsletter">I'd like to receive the newsletter</label>
+        <input type="checkbox" class="checkbox" id="newsletter" name="newsletter">
+      </p>
+      <p>
+        <input class="submit" type="submit" value="Submit">
+      </p>
+    </fieldset>
+  </form>
+
+
+  <script>
+    /* $(document).ready(function () { 
+      $("#loginForm").validate({
+        rules: {
+          email: {
+            required: true,
+            email: true
+          },
+          password: {
+            required: true
+          },
+          acceptTerms: {
+            required: true
+          }
+        },
+        messages: {
+          email: {
+            required: "Por favor ingrese su email",
+            email: "Por favor ingrese un email válido"
+          },
+          password: {
+            required: "Por favor ingrese su contraseña"
+          },
+          acceptTerms: {
+            required: "Debe aceptar los términos"
+          }
+        },
+        submitHandler: function (form) {
+          alert("¡Se ha enviado correctamente!");
+          event.preventDefault();
+        }
+      });
+    });*/
+  
+	$.validator.setDefaults({
+		submitHandler: function() {
+			alert("submitted!");
+		}
+	});
+
+	$().ready(function() {
+		// validate the comment form when it is submitted
+		$("#commentForm").validate();
+
+		// validate signup form on keyup and submit
+		$("#signupForm").validate({
+			rules: {
+				firstname: "required",
+				lastname: "required",
+				username: {
+					required: true,
+					minlength: 2
+				},
+				password: {
+					required: true,
+					minlength: 5
+				},
+				email: {
+					required: true,
+					email: true
+				},
+				topic: {
+					required: "#newsletter:checked",
+					minlength: 2
+				},
+				agree: "required"
+			},
+			messages: {
+				password: {
+					required: "Please provide a password",
+					minlength: "Your password must be at least 5 characters long"
+				},
+				email: "Please enter a valid email address",
+			}
+		});
+
+		//code to hide topic selection, disable for demo
+		var newsletter = $("#newsletter");
+		// newsletter topics are optional, hide at first
+		var inital = newsletter.is(":checked");
+		var topics = $("#newsletter_topics")[inital ? "removeClass" : "addClass"]("gray");
+		var topicInputs = topics.find("input").attr("disabled", !inital);
+		// show when newsletter is checked
+		newsletter.click(function() {
+			topics[this.checked ? "removeClass" : "addClass"]("gray");
+			topicInputs.attr("disabled", !this.checked);
+		});
+	});
+	
+  </script>
+</body>
+
+</html>

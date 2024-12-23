@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Contacto</title>
+    <link rel="stylesheet" href="css/contacto.css" />
+    <!-- Incluir jQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Incluir jQuery Validation -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+</head>
+
+<body>
+    <h2>Formulario de Contacto</h2>
+    <form id="contactForm" method="GET" action="">
+        <fieldset>
+            <label for="contactEmail">Email:</label>
+            <input type="email" id="contactEmail" name="contactEmail" required />
+
+            <label for="firstName">Nombre:</label>
+            <input type="text" id="firstName" name="firstName" required />
+
+            <label for="lastName">Apellidos:</label>
+            <input type="text" id="lastName" name="lastName" required />
+
+            <label for="job">Empleo:</label>
+            <input type="text" id="job" name="job" required />
+
+            <label for="location">Localidad:</label>
+            <input type="text" id="location" name="location" required />
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+    <script>
+        $(document).ready(function () {
+            // Validación del formulario usando jQuery Validation
+            $("#contactForm").validate({
+                rules: {
+                    contactEmail: {
+                        required: true,
+                        email: true
+                    },
+                    firstName: {
+                        required: true
+                    },
+                    lastName: {
+                        required: true
+                    },
+                    job: {
+                        required: true
+                    },
+                    location: {
+                        required: true
+                    }
+                },
+                messages: {
+                    contactEmail: {
+                        required: "Por favor ingrese su email",
+                        email: "Por favor ingrese un email válido"
+                    },
+                    firstName: {
+                        required: "Por favor ingrese su nombre"
+                    },
+                    lastName: {
+                        required: "Por favor ingrese sus apellidos"
+                    },
+                    job: {
+                        required: "Por favor ingrese su empleo"
+                    },
+                    location: {
+                        required: "Por favor ingrese su localidad"
+                    }
+                },
+                submitHandler: function (form) {
+                    // Prevenir el envío real del formulario para mostrar un mensaje de alert
+                    event.preventDefault();
+
+                    const contactEmail = $("#contactEmail").val();
+                    const firstName = $("#firstName").val();
+                    const lastName = $("#lastName").val();
+                    const job = $("#job").val();
+                    const location = $("#location").val();
+
+                    // Mostrar los datos ingresados en un alert
+                    alert(
+                        `Datos enviados:
+            Email: ${contactEmail}
+            Nombre: ${firstName}
+            Apellidos: ${lastName}
+            Empleo: ${job}
+            Localidad: ${location}`
+                    );
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
