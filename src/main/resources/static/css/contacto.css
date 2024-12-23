@@ -1,36 +1,91 @@
+/* Estilo general para el cuerpo de la página */
 body {
     font-family: Arial, sans-serif;
-    margin: 20px;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
   }
   
-  form {
+  form#contactForm {
+    background-color: #ffffff;
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    box-sizing: border-box;
+  }
+  
+  /* Título del formulario */
+  form#contactForm h2 {
+    text-align: center;
+    color: #333;
     margin-bottom: 20px;
+  }
+  
+  /* Estilo para cada etiqueta del formulario */
+  form#contactForm label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Estilo para cada campo de entrada */
+  form#contactForm input[type="email"],
+  form#contactForm input[type="text"] {
+    width: 100%;
     padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ccc;
     border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border 0.3s ease-in-out;
   }
   
-  label {
-    display: block;
-    margin-bottom: 5px;
+  /* Estilo cuando el campo de entrada está enfocado */
+  form#contactForm input[type="email"]:focus,
+  form#contactForm input[type="text"]:focus {
+    border-color: #4e9af1;
+    outline: none;
   }
   
-  input[type="text"],
-  input[type="email"] {
-    width: 95%;
-    padding: 8px;
-    margin-bottom: 10px;
-  }
-  
-  button {
-    padding: 10px 20px;
-    background-color: #007bff;
+  /* Estilo para el botón de envío */
+  form#contactForm button[type="submit"] {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e9af1;
     color: white;
+    font-size: 16px;
+    font-weight: bold;
     border: none;
+    border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
   }
   
-  button:hover {
-    background-color: #0056b3;
+  /* Cambio de color en el botón al pasar el mouse */
+  form#contactForm button[type="submit"]:hover {
+    background-color: #3578d4;
   }
   
+  /* Estilo para los campos obligatorios */
+  form#contactForm input:required {
+    border-left: 4px solid #ff4c4c;
+  }
+  
+  form#contactForm input:required:focus {
+    border-left-color: #ff1e1e;
+  }
+  
+  /* Efecto de espacio entre los campos del formulario */
+  form#contactForm fieldset {
+    border: none;
+    padding: 0;
+  }

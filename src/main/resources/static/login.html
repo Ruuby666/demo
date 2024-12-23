@@ -13,28 +13,6 @@
 
 <body>
   <h2>Formulario de Login</h2>
-  <!-- <form class="cmxform" id="loginForm" method="get" action="">
-    <fieldset>
-      <label for="email">Email:</label>
-      <input type="email" id="email" />
-
-      <label for="password">Contraseña:</label>
-      <input type="password" id="password" />
-
-      <label>
-        <input type="checkbox" id="acceptTerms" />
-        Aceptar condiciones
-      </label>
-
-      <label>
-        <input type="checkbox" id="subscribeNewsletter" />
-        Suscribirse al newsletter
-      </label>
-
-      <button type="submit">Enviar</button>
-    </fieldset>
-  </form> -->
-
   <form class="cmxform" id="signupForm" method="get" action="" novalidate="novalidate">
     <fieldset>
       <legend>Validating a complete form</legend>
@@ -65,38 +43,6 @@
 
 
   <script>
-    /* $(document).ready(function () { 
-      $("#loginForm").validate({
-        rules: {
-          email: {
-            required: true,
-            email: true
-          },
-          password: {
-            required: true
-          },
-          acceptTerms: {
-            required: true
-          }
-        },
-        messages: {
-          email: {
-            required: "Por favor ingrese su email",
-            email: "Por favor ingrese un email válido"
-          },
-          password: {
-            required: "Por favor ingrese su contraseña"
-          },
-          acceptTerms: {
-            required: "Debe aceptar los términos"
-          }
-        },
-        submitHandler: function (form) {
-          alert("¡Se ha enviado correctamente!");
-          event.preventDefault();
-        }
-      });
-    });*/
   
 	$.validator.setDefaults({
 		submitHandler: function() {
@@ -129,7 +75,8 @@
 					required: "#newsletter:checked",
 					minlength: 2
 				},
-				agree: "required"
+				agree: "required",
+        newsletter: "required"
 			},
 			messages: {
 				password: {
