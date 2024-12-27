@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+    <link rel="stylesheet" href="css/formulario2.css" />
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+</head>
+
+<body>
+    <h2>Formulario de Registro</h2>
+    <form id="registroForm" method="GET" action="">
+        <fieldset>
+            <label for="contrato">Número de Contrato:</label>
+            <input type="text" id="contrato" name="contrato" required>
+
+            <label for="cliente">Número de Cliente:</label>
+            <input type="text" id="cliente" name="cliente" required>
+
+            <label for="codigo">Código Etiquetado:</label>
+            <input type="text" id="codigo" name="codigo" required>
+
+            <label for="cuenta">Cuenta de Cliente de Sistemas:</label>
+            <input type="text" id="cuenta" name="cuenta" required>
+
+            <label for="password">Contraseña de Cuenta:</label>
+            <input type="password" id="password" name="password" required>
+
+            <label for="email">Usuario Mi Oficina (Email):</label>
+            <input type="email" id="email" name="email" required>
+
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
+
+    <script>
+        $(document).ready(function () {
+
+            $.validator.addMethod(
+                "codigoValido", 
+                function (value, element) {
+                    return /^[A-Z0-9]{4}$/.test(value);
+                },
+                "El código debe contener exactamente 4 caracteres en mayúscula o números." 
+            );
+
+            $.validator.addMethod(
+                "cuentaValida", // Nombre del método
+                function (value, element) {
+                    // Obtener el valor del campo 'codigo'
+                    const codigo = $("#codigo").val();
+                    const regex = /^W\d{    }$/;
+                    // Validar que siga el patrón general y que los últimos 4 dígitos coincidan con el código
+                    return regex.test(value) && value.slice(-4) === codigo;
+                },
+                "La cuenta debe comenzar con 'W' seguida de 8 dígitos, y los últimos 4 deben coincidir con el código."
+            );
+
+            $.validator.addMethod(
+                "passwordValida", 
+                function (value, element) {
+                    const regex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)[A-Za-z\d]{8,}$/;
+                    return regex.test(value);
+                },
+                "La contraseña debe tener al menos 8 caracteres, una letra mayúscula, una letra minúscula, un número y un carácter especial (@, $, !, %, *, ?, &)."
+            );
+
+            $("#registroForm").validate({
+                rules: {
+                    contrato: {
+                        required: true,
+                        digits: true,
+                        minlength: 8,
+                        maxlength: 8
+                    },
+                    cliente: {
+                        required: true,
+                        digits: true,
+                        minlength: 8,
+                        maxlength: 8
+                    },
+                    codigo: {
+                        required: true,
+                        codigoValido: true
+                    },
+                    cuenta: {
+                        required: true,
+                        cuentaValida: true           // Comienza con 'W' y termina con el código
+                    },
+                    password: {
+                        required: true,
+                        minlength: 8,
+                        passwordValida: true
+                    },
+                    email: {
+                        required: true,
+                        email: true
+                    }
+                },
+                messages: {
+                    contrato: {
+                        required: "Por favor, ingrese su número de contrato.",
+                        digits: "Solo se permiten números.",
+                        minlength: "Debe tener exactamente 8 dígitos.",
+                        maxlength: "Debe tener exactamente 8 dígitos."
+                    },
+                    cliente: {
+                        required: "Por favor, ingrese un número de cliente válido.",
+                        digits: "Solo se permiten números.",
+                        minlength: "Debe tener exactamente 8 dígitos.",
+                        maxlength: "Debe tener exactamente 8 dígitos."
+                    },
+                    codigo: {
+                        required: "Por favor, ingrese un código etiquetado.",
+                        pattern: "Solo se permiten mayúsculas y números."
+                    },
+                    cuenta: {
+                        required: "Por favor, ingrese su cuenta.",
+                        digits: "Solo se permiten números.",
+                        minlength: "Debe tener exactamente 13 caracteres.",
+                        maxlength: "Debe tener exactamente 13 caracteres.",
+                        pattern: "La cuenta debe comenzar con 'W' seguida de 12 dígitos."
+                    },
+                    password: {
+                        required: "Por favor, ingrese una contraseña.",
+                        minlength: "Debe tener al menos 8 caracteres.",
+                        pattern: "La contraseña debe contener al menos una letra mayúscula, una minúscula, un número y un carácter especial."
+                    },
+                    email: "Por favor, ingrese un correo electrónico válido."
+                },
+                submitHandler: function (form) {
+                    event.preventDefault();
+                    const datos = $(form).serializeArray();
+                    let mensaje = "Datos enviados:\n";
+                    datos.forEach(d => {
+                        mensaje += `${d.name}: ${d.value}\n`;
+                    });
+                    alert(mensaje);
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
