@@ -19,7 +19,6 @@ public class Signup {
     private boolean agree;
     private boolean newsletter;
 
-    // Getters y Setters
     public Long getId() {
         return id;
     }

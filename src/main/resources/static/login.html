@@ -13,7 +13,7 @@
 
 <body>
   <h2>Formulario de Login</h2>
-  <form class="cmxform" id="signupForm" method="get" action="" novalidate="novalidate">
+  <form class="cmxform" id="signupForm" method="post" action="/guardar">
     <fieldset>
       <legend>Validating a complete form</legend>
       <p>
@@ -45,24 +45,16 @@
   <script>
   
 	$.validator.setDefaults({
-		submitHandler: function() {
+		submitHandler: function(form) {
+			form.submit();
 			alert("submitted!");
 		}
 	});
 
 	$().ready(function() {
-		// validate the comment form when it is submitted
-		$("#commentForm").validate();
-
 		// validate signup form on keyup and submit
 		$("#signupForm").validate({
 			rules: {
-				firstname: "required",
-				lastname: "required",
-				username: {
-					required: true,
-					minlength: 2
-				},
 				password: {
 					required: true,
 					minlength: 5
@@ -71,12 +63,8 @@
 					required: true,
 					email: true
 				},
-				topic: {
-					required: "#newsletter:checked",
-					minlength: 2
-				},
 				agree: "required",
-        newsletter: "required"
+        		newsletter: "required"
 			},
 			messages: {
 				password: {
@@ -87,7 +75,6 @@
 			}
 		});
 
-		//code to hide topic selection, disable for demo
 		var newsletter = $("#newsletter");
 		// newsletter topics are optional, hide at first
 		var inital = newsletter.is(":checked");

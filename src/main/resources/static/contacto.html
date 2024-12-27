@@ -13,7 +13,7 @@
 
 <body>
     <h2>Formulario de Contacto</h2>
-    <form id="contactForm" method="GET" action="">
+    <form id="contactForm" method="POST" action="/guardarContacto">
         <fieldset>
             <label for="contactEmail">Email:</label>
             <input type="email" id="contactEmail" name="contactEmail" required />
@@ -75,8 +75,8 @@
                     }
                 },
                 submitHandler: function (form) {
-                    // Prevenir el envío real del formulario para mostrar un mensaje de alert
-                    event.preventDefault();
+
+                    form.submit();
 
                     const contactEmail = $("#contactEmail").val();
                     const firstName = $("#firstName").val();
