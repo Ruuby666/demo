@@ -34,7 +34,7 @@ public class ContactoController {
         contactoRepository.save(contacto);
 
         // Redireccionar a una página o vista
-        return "redirect:/contactos";
+        return null;
     }
 
     // Mostrar todos los contactos guardados

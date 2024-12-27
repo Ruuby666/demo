@@ -1,0 +1,1190 @@
+2024-12-27 12:53:53 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 12:53:53 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 12:53:54 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-27 12:53:54 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-27 12:54:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 12:54:01 - Finished Spring Data repository scanning in 170 ms. Found 2 JPA repository interfaces.
+2024-12-27 12:54:06 - Tomcat initialized with port 8080 (http)
+2024-12-27 12:54:06 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:54:06 - Starting service [Tomcat]
+2024-12-27 12:54:06 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 12:54:06 - Initializing Spring embedded WebApplicationContext
+2024-12-27 12:54:06 - Root WebApplicationContext: initialization completed in 12756 ms
+2024-12-27 12:54:08 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-27 12:54:09 - HHH000026: Second-level cache disabled
+2024-12-27 12:54:10 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 12:54:10 - HikariPool-1 - Starting...
+2024-12-27 12:54:11 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 12:54:11 - HikariPool-1 - Start completed.
+2024-12-27 12:54:11 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 12:54:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 12:54:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 12:54:18 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 12:54:19 - LiveReload server is running on port 35729
+2024-12-27 12:54:19 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 12:54:19 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 12:54:19 - Initializing Servlet 'dispatcherServlet'
+2024-12-27 12:54:19 - Completed initialization in 6 ms
+2024-12-27 12:54:19 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:54:19 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 12:54:20 - Started DemoApplication in 27.672 seconds (process running for 29.683)
+2024-12-27 12:59:24 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 12:59:24 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 12:59:24 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:24 - Graceful shutdown complete
+2024-12-27 12:59:24 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 12:59:24 - HikariPool-1 - Shutdown initiated...
+2024-12-27 12:59:24 - HikariPool-1 - Shutdown completed.
+2024-12-27 12:59:25 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 12:59:25 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 12:59:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 12:59:29 - Finished Spring Data repository scanning in 71 ms. Found 2 JPA repository interfaces.
+2024-12-27 12:59:30 - Tomcat initialized with port 8080 (http)
+2024-12-27 12:59:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:30 - Starting service [Tomcat]
+2024-12-27 12:59:30 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 12:59:30 - Initializing Spring embedded WebApplicationContext
+2024-12-27 12:59:30 - Root WebApplicationContext: initialization completed in 4680 ms
+2024-12-27 12:59:32 - HHH000026: Second-level cache disabled
+2024-12-27 12:59:32 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 12:59:32 - HikariPool-2 - Starting...
+2024-12-27 12:59:32 - HikariPool-2 - Added connection conn10: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 12:59:32 - HikariPool-2 - Start completed.
+2024-12-27 12:59:32 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 12:59:33 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 12:59:33 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 12:59:37 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 12:59:38 - LiveReload server is running on port 35729
+2024-12-27 12:59:38 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 12:59:38 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:38 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 12:59:38 - Started DemoApplication in 13.752 seconds (process running for 348.526)
+2024-12-27 12:59:38 - Condition evaluation unchanged
+2024-12-27 12:59:40 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 12:59:40 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 12:59:40 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:40 - Graceful shutdown complete
+2024-12-27 12:59:40 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:40 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 12:59:40 - HikariPool-2 - Shutdown initiated...
+2024-12-27 12:59:40 - HikariPool-2 - Shutdown completed.
+2024-12-27 12:59:41 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 12:59:41 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 12:59:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 12:59:43 - Finished Spring Data repository scanning in 104 ms. Found 2 JPA repository interfaces.
+2024-12-27 12:59:44 - Tomcat initialized with port 8080 (http)
+2024-12-27 12:59:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:44 - Starting service [Tomcat]
+2024-12-27 12:59:44 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 12:59:44 - Initializing Spring embedded WebApplicationContext
+2024-12-27 12:59:44 - Root WebApplicationContext: initialization completed in 3373 ms
+2024-12-27 12:59:45 - HHH000026: Second-level cache disabled
+2024-12-27 12:59:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 12:59:45 - HikariPool-3 - Starting...
+2024-12-27 12:59:45 - HikariPool-3 - Added connection conn20: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 12:59:45 - HikariPool-3 - Start completed.
+2024-12-27 12:59:45 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 12:59:46 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 12:59:46 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 12:59:49 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 12:59:49 - LiveReload server is running on port 35729
+2024-12-27 12:59:49 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 12:59:50 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:50 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 12:59:50 - Started DemoApplication in 9.07 seconds (process running for 359.865)
+2024-12-27 12:59:50 - Condition evaluation unchanged
+2024-12-27 12:59:58 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 12:59:58 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 12:59:58 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:58 - Graceful shutdown complete
+2024-12-27 12:59:58 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 12:59:58 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 12:59:58 - HikariPool-3 - Shutdown initiated...
+2024-12-27 12:59:58 - HikariPool-3 - Shutdown completed.
+2024-12-27 12:59:59 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 12:59:59 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:00:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:00:01 - Finished Spring Data repository scanning in 53 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:00:02 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:00:02 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:00:02 - Starting service [Tomcat]
+2024-12-27 13:00:02 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:00:02 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:00:02 - Root WebApplicationContext: initialization completed in 3628 ms
+2024-12-27 13:00:03 - HHH000026: Second-level cache disabled
+2024-12-27 13:00:03 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:00:03 - HikariPool-4 - Starting...
+2024-12-27 13:00:03 - HikariPool-4 - Added connection conn30: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:00:03 - HikariPool-4 - Start completed.
+2024-12-27 13:00:03 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:00:03 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:00:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:00:06 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:00:07 - LiveReload server is running on port 35729
+2024-12-27 13:00:07 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:00:07 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:00:07 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:00:07 - Started DemoApplication in 8.48 seconds (process running for 377.046)
+2024-12-27 13:00:07 - Condition evaluation unchanged
+2024-12-27 13:01:50 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:01:50 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:01:50 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:01:50 - Graceful shutdown complete
+2024-12-27 13:01:50 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:01:50 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:01:50 - HikariPool-4 - Shutdown initiated...
+2024-12-27 13:01:50 - HikariPool-4 - Shutdown completed.
+2024-12-27 13:01:50 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:01:50 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:01:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:01:52 - Finished Spring Data repository scanning in 72 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:01:53 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:01:53 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:01:53 - Starting service [Tomcat]
+2024-12-27 13:01:53 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:01:54 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:01:54 - Root WebApplicationContext: initialization completed in 3592 ms
+2024-12-27 13:01:54 - HHH000026: Second-level cache disabled
+2024-12-27 13:01:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:01:54 - HikariPool-5 - Starting...
+2024-12-27 13:01:54 - HikariPool-5 - Added connection conn40: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:01:54 - HikariPool-5 - Start completed.
+2024-12-27 13:01:54 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:01:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:01:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:01:57 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:01:58 - LiveReload server is running on port 35729
+2024-12-27 13:01:58 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:01:58 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:01:58 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:01:58 - Started DemoApplication in 7.958 seconds (process running for 487.921)
+2024-12-27 13:01:58 - Condition evaluation unchanged
+2024-12-27 13:02:06 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:02:06 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:02:06 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:02:06 - Graceful shutdown complete
+2024-12-27 13:02:06 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:02:06 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:02:06 - HikariPool-5 - Shutdown initiated...
+2024-12-27 13:02:06 - HikariPool-5 - Shutdown completed.
+2024-12-27 13:02:07 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:02:07 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:02:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:02:07 - Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:02:08 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:02:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:02:08 - Starting service [Tomcat]
+2024-12-27 13:02:08 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:02:08 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:02:08 - Root WebApplicationContext: initialization completed in 1206 ms
+2024-12-27 13:02:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:02:08 - HHH000026: Second-level cache disabled
+2024-12-27 13:02:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:02:08 - HikariPool-6 - Starting...
+2024-12-27 13:02:08 - HikariPool-6 - Added connection conn50: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:02:08 - HikariPool-6 - Start completed.
+2024-12-27 13:02:08 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:02:08 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:02:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:02:10 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:02:10 - LiveReload server is running on port 35729
+2024-12-27 13:02:10 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:02:11 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:02:11 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:02:11 - Started DemoApplication in 4.14 seconds (process running for 500.715)
+2024-12-27 13:02:11 - Condition evaluation unchanged
+2024-12-27 13:07:00 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:07:00 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:07:00 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:00 - Graceful shutdown complete
+2024-12-27 13:07:00 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:07:00 - HikariPool-6 - Shutdown initiated...
+2024-12-27 13:07:00 - HikariPool-6 - Shutdown completed.
+2024-12-27 13:07:01 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:07:01 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:07:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:07:03 - Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:07:04 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:07:04 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:04 - Starting service [Tomcat]
+2024-12-27 13:07:04 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:07:04 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:07:04 - Root WebApplicationContext: initialization completed in 2748 ms
+2024-12-27 13:07:04 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:07:04 - HHH000026: Second-level cache disabled
+2024-12-27 13:07:04 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:07:04 - HikariPool-7 - Starting...
+2024-12-27 13:07:04 - HikariPool-7 - Added connection conn60: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:07:04 - HikariPool-7 - Start completed.
+2024-12-27 13:07:04 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:07:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:07:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:07:05 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:07:05 - LiveReload server is running on port 35729
+2024-12-27 13:07:05 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:07:05 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:05 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:07:05 - Started DemoApplication in 4.694 seconds (process running for 795.268)
+2024-12-27 13:07:05 - Condition evaluation unchanged
+2024-12-27 13:07:30 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:07:30 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:07:30 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:30 - Graceful shutdown complete
+2024-12-27 13:07:30 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:30 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:07:30 - HikariPool-7 - Shutdown initiated...
+2024-12-27 13:07:30 - HikariPool-7 - Shutdown completed.
+2024-12-27 13:07:30 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:07:30 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:07:30 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:07:30 - Finished Spring Data repository scanning in 16 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:07:31 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:07:31 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:31 - Starting service [Tomcat]
+2024-12-27 13:07:31 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:07:31 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:07:31 - Root WebApplicationContext: initialization completed in 554 ms
+2024-12-27 13:07:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:07:31 - HHH000026: Second-level cache disabled
+2024-12-27 13:07:31 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:07:31 - HikariPool-8 - Starting...
+2024-12-27 13:07:31 - HikariPool-8 - Added connection conn70: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:07:31 - HikariPool-8 - Start completed.
+2024-12-27 13:07:31 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-8)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:07:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:07:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:07:32 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:07:32 - LiveReload server is running on port 35729
+2024-12-27 13:07:32 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:07:32 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:07:32 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:07:32 - Started DemoApplication in 1.971 seconds (process running for 822.11)
+2024-12-27 13:07:32 - Condition evaluation unchanged
+2024-12-27 13:09:13 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:09:13 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:09:13 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:13 - Graceful shutdown complete
+2024-12-27 13:09:13 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:13 - HikariPool-8 - Shutdown initiated...
+2024-12-27 13:09:13 - HikariPool-8 - Shutdown completed.
+2024-12-27 13:09:14 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:09:14 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:09:15 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:09:15 - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:09:15 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:09:15 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:15 - Starting service [Tomcat]
+2024-12-27 13:09:15 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:09:15 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:09:15 - Root WebApplicationContext: initialization completed in 1162 ms
+2024-12-27 13:09:16 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:09:16 - HHH000026: Second-level cache disabled
+2024-12-27 13:09:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:09:16 - HikariPool-9 - Starting...
+2024-12-27 13:09:16 - HikariPool-9 - Added connection conn80: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:09:16 - HikariPool-9 - Start completed.
+2024-12-27 13:09:16 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-9)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:09:16 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:09:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:18 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:09:18 - LiveReload server is running on port 35729
+2024-12-27 13:09:18 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:09:18 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:18 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:09:18 - Started DemoApplication in 3.965 seconds (process running for 927.813)
+2024-12-27 13:09:18 - Condition evaluation unchanged
+2024-12-27 13:09:23 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:09:23 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:09:23 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:23 - Graceful shutdown complete
+2024-12-27 13:09:23 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:23 - HikariPool-9 - Shutdown initiated...
+2024-12-27 13:09:23 - HikariPool-9 - Shutdown completed.
+2024-12-27 13:09:23 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:09:23 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:09:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:09:24 - Finished Spring Data repository scanning in 45 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:09:25 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:09:25 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:25 - Starting service [Tomcat]
+2024-12-27 13:09:25 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:09:25 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:09:25 - Root WebApplicationContext: initialization completed in 1360 ms
+2024-12-27 13:09:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:09:25 - HHH000026: Second-level cache disabled
+2024-12-27 13:09:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:09:25 - HikariPool-10 - Starting...
+2024-12-27 13:09:25 - HikariPool-10 - Added connection conn90: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:09:25 - HikariPool-10 - Start completed.
+2024-12-27 13:09:25 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-10)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:09:25 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:09:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:26 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:09:26 - LiveReload server is running on port 35729
+2024-12-27 13:09:26 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:09:27 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:27 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:09:27 - Started DemoApplication in 3.247 seconds (process running for 936.651)
+2024-12-27 13:09:27 - Condition evaluation unchanged
+2024-12-27 13:09:28 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:09:28 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:09:28 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:28 - Graceful shutdown complete
+2024-12-27 13:09:28 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:28 - HikariPool-10 - Shutdown initiated...
+2024-12-27 13:09:28 - HikariPool-10 - Shutdown completed.
+2024-12-27 13:09:28 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:09:28 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:09:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:09:29 - Finished Spring Data repository scanning in 33 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:09:29 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:09:29 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:29 - Starting service [Tomcat]
+2024-12-27 13:09:29 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:09:29 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:09:29 - Root WebApplicationContext: initialization completed in 1212 ms
+2024-12-27 13:09:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:09:30 - HHH000026: Second-level cache disabled
+2024-12-27 13:09:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:09:30 - HikariPool-11 - Starting...
+2024-12-27 13:09:30 - HikariPool-11 - Added connection conn100: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:09:30 - HikariPool-11 - Start completed.
+2024-12-27 13:09:30 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-11)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:09:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:09:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:31 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:09:31 - LiveReload server is running on port 35729
+2024-12-27 13:09:31 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:09:31 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:31 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:09:31 - Started DemoApplication in 2.807 seconds (process running for 941.029)
+2024-12-27 13:09:31 - Condition evaluation unchanged
+2024-12-27 13:09:33 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:09:33 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:09:33 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:33 - Graceful shutdown complete
+2024-12-27 13:09:33 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:33 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:33 - HikariPool-11 - Shutdown initiated...
+2024-12-27 13:09:33 - HikariPool-11 - Shutdown completed.
+2024-12-27 13:09:34 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:09:34 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:09:34 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:09:34 - Finished Spring Data repository scanning in 19 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:09:35 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:09:35 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:35 - Starting service [Tomcat]
+2024-12-27 13:09:35 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:09:35 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:09:35 - Root WebApplicationContext: initialization completed in 1051 ms
+2024-12-27 13:09:35 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:09:35 - HHH000026: Second-level cache disabled
+2024-12-27 13:09:35 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:09:35 - HikariPool-12 - Starting...
+2024-12-27 13:09:35 - HikariPool-12 - Added connection conn110: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:09:35 - HikariPool-12 - Start completed.
+2024-12-27 13:09:35 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-12)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:09:35 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:09:35 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:36 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:09:36 - LiveReload server is running on port 35729
+2024-12-27 13:09:36 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:09:36 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:36 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:09:37 - Started DemoApplication in 2.98 seconds (process running for 946.626)
+2024-12-27 13:09:37 - Condition evaluation unchanged
+2024-12-27 13:09:54 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:09:54 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:09:54 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:54 - Graceful shutdown complete
+2024-12-27 13:09:54 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:54 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:54 - HikariPool-12 - Shutdown initiated...
+2024-12-27 13:09:54 - HikariPool-12 - Shutdown completed.
+2024-12-27 13:09:55 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:09:55 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:09:55 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:09:55 - Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:09:56 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:09:56 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:56 - Starting service [Tomcat]
+2024-12-27 13:09:56 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:09:56 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:09:56 - Root WebApplicationContext: initialization completed in 1194 ms
+2024-12-27 13:09:56 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:09:56 - HHH000026: Second-level cache disabled
+2024-12-27 13:09:56 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:09:56 - HikariPool-13 - Starting...
+2024-12-27 13:09:56 - HikariPool-13 - Added connection conn120: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:09:56 - HikariPool-13 - Start completed.
+2024-12-27 13:09:56 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-13)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:09:56 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:09:56 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:09:59 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:09:59 - LiveReload server is running on port 35729
+2024-12-27 13:09:59 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:09:59 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:09:59 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:09:59 - Started DemoApplication in 4.837 seconds (process running for 969.406)
+2024-12-27 13:09:59 - Condition evaluation unchanged
+2024-12-27 13:10:07 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:10:07 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:10:07 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:07 - Graceful shutdown complete
+2024-12-27 13:10:07 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:07 - HikariPool-13 - Shutdown initiated...
+2024-12-27 13:10:07 - HikariPool-13 - Shutdown completed.
+2024-12-27 13:10:07 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:10:07 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:10:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:10:08 - Finished Spring Data repository scanning in 24 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:10:09 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:10:09 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:09 - Starting service [Tomcat]
+2024-12-27 13:10:09 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:10:09 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:10:09 - Root WebApplicationContext: initialization completed in 1394 ms
+2024-12-27 13:10:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:10:09 - HHH000026: Second-level cache disabled
+2024-12-27 13:10:09 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:10:09 - HikariPool-14 - Starting...
+2024-12-27 13:10:09 - HikariPool-14 - Added connection conn130: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:10:09 - HikariPool-14 - Start completed.
+2024-12-27 13:10:09 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-14)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:10:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:10:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:10 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:10:11 - LiveReload server is running on port 35729
+2024-12-27 13:10:11 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:10:11 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:11 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:10:11 - Started DemoApplication in 3.579 seconds (process running for 980.809)
+2024-12-27 13:10:11 - Condition evaluation unchanged
+2024-12-27 13:10:15 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:10:16 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:10:16 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:16 - Graceful shutdown complete
+2024-12-27 13:10:16 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:16 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:16 - HikariPool-14 - Shutdown initiated...
+2024-12-27 13:10:16 - HikariPool-14 - Shutdown completed.
+2024-12-27 13:10:16 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:10:16 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:10:18 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:10:18 - Finished Spring Data repository scanning in 219 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:10:19 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:10:19 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:19 - Starting service [Tomcat]
+2024-12-27 13:10:19 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:10:19 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:10:19 - Root WebApplicationContext: initialization completed in 2956 ms
+2024-12-27 13:10:20 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:10:20 - HHH000026: Second-level cache disabled
+2024-12-27 13:10:20 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:10:20 - HikariPool-15 - Starting...
+2024-12-27 13:10:20 - HikariPool-15 - Added connection conn140: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:10:20 - HikariPool-15 - Start completed.
+2024-12-27 13:10:20 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-15)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:10:20 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:10:20 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:22 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:10:22 - LiveReload server is running on port 35729
+2024-12-27 13:10:22 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:10:22 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:22 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:10:22 - Started DemoApplication in 5.648 seconds (process running for 991.848)
+2024-12-27 13:10:22 - Condition evaluation unchanged
+2024-12-27 13:10:23 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:10:23 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:10:23 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:23 - Graceful shutdown complete
+2024-12-27 13:10:23 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:23 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:23 - HikariPool-15 - Shutdown initiated...
+2024-12-27 13:10:23 - HikariPool-15 - Shutdown completed.
+2024-12-27 13:10:23 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:10:23 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:10:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:10:24 - Finished Spring Data repository scanning in 29 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:10:24 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:10:24 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:24 - Starting service [Tomcat]
+2024-12-27 13:10:24 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:10:24 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:10:24 - Root WebApplicationContext: initialization completed in 1079 ms
+2024-12-27 13:10:25 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:10:25 - HHH000026: Second-level cache disabled
+2024-12-27 13:10:25 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:10:25 - HikariPool-16 - Starting...
+2024-12-27 13:10:25 - HikariPool-16 - Added connection conn150: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:10:25 - HikariPool-16 - Start completed.
+2024-12-27 13:10:25 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-16)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:10:25 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:10:25 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:27 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:10:27 - LiveReload server is running on port 35729
+2024-12-27 13:10:27 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:10:27 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:27 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:10:27 - Started DemoApplication in 4.075 seconds (process running for 997.421)
+2024-12-27 13:10:27 - Condition evaluation unchanged
+2024-12-27 13:10:29 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:10:29 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:10:29 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:29 - Graceful shutdown complete
+2024-12-27 13:10:29 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:29 - HikariPool-16 - Shutdown initiated...
+2024-12-27 13:10:29 - HikariPool-16 - Shutdown completed.
+2024-12-27 13:10:29 - Starting DemoApplication using Java 21.0.5 with PID 12360 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:10:29 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:10:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:10:29 - Finished Spring Data repository scanning in 20 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:10:30 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:10:30 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:30 - Starting service [Tomcat]
+2024-12-27 13:10:30 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:10:30 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:10:30 - Root WebApplicationContext: initialization completed in 801 ms
+2024-12-27 13:10:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:10:30 - HHH000026: Second-level cache disabled
+2024-12-27 13:10:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:10:30 - HikariPool-17 - Starting...
+2024-12-27 13:10:30 - HikariPool-17 - Added connection conn160: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:10:30 - HikariPool-17 - Start completed.
+2024-12-27 13:10:30 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-17)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:10:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:10:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:10:31 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:10:31 - LiveReload server is running on port 35729
+2024-12-27 13:10:31 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:10:31 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:10:32 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:10:32 - Started DemoApplication in 2.777 seconds (process running for 1001.647)
+2024-12-27 13:10:32 - Condition evaluation unchanged
+2024-12-27 13:11:46 - Starting DemoApplication using Java 21.0.5 with PID 19000 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:11:46 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:11:46 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-27 13:11:46 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-27 13:11:51 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:11:51 - Finished Spring Data repository scanning in 301 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:11:55 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:11:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:11:55 - Starting service [Tomcat]
+2024-12-27 13:11:55 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:11:55 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:11:55 - Root WebApplicationContext: initialization completed in 9467 ms
+2024-12-27 13:11:58 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:11:58 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-27 13:11:59 - HHH000026: Second-level cache disabled
+2024-12-27 13:12:00 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:12:01 - HikariPool-1 - Starting...
+2024-12-27 13:12:01 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:12:01 - HikariPool-1 - Start completed.
+2024-12-27 13:12:01 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:12:04 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:12:04 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:12:12 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:12:12 - LiveReload server is running on port 35729
+2024-12-27 13:12:12 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:12:12 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:12:12 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:12:12 - Started DemoApplication in 28.133 seconds (process running for 30.34)
+2024-12-27 13:12:13 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 13:12:13 - Initializing Servlet 'dispatcherServlet'
+2024-12-27 13:12:13 - Completed initialization in 2 ms
+2024-12-27 13:17:40 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:17:40 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:17:40 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:40 - Graceful shutdown complete
+2024-12-27 13:17:40 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:40 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:17:40 - HikariPool-1 - Shutdown initiated...
+2024-12-27 13:17:40 - HikariPool-1 - Shutdown completed.
+2024-12-27 13:17:41 - Starting DemoApplication using Java 21.0.5 with PID 19000 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:17:41 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:17:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:17:43 - Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:17:44 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:17:44 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:44 - Starting service [Tomcat]
+2024-12-27 13:17:44 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:17:44 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:17:44 - Root WebApplicationContext: initialization completed in 3184 ms
+2024-12-27 13:17:45 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:17:45 - HHH000026: Second-level cache disabled
+2024-12-27 13:17:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:17:45 - HikariPool-2 - Starting...
+2024-12-27 13:17:45 - HikariPool-2 - Added connection conn10: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:17:45 - HikariPool-2 - Start completed.
+2024-12-27 13:17:45 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:17:45 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:17:45 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:17:49 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:17:50 - LiveReload server is running on port 35729
+2024-12-27 13:17:50 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:17:50 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:50 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:17:50 - Started DemoApplication in 9.383 seconds (process running for 367.729)
+2024-12-27 13:17:50 - Condition evaluation unchanged
+2024-12-27 13:17:51 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:17:51 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:17:51 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:51 - Graceful shutdown complete
+2024-12-27 13:17:51 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:51 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:17:51 - HikariPool-2 - Shutdown initiated...
+2024-12-27 13:17:51 - HikariPool-2 - Shutdown completed.
+2024-12-27 13:17:51 - Starting DemoApplication using Java 21.0.5 with PID 19000 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:17:51 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:17:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:17:52 - Finished Spring Data repository scanning in 32 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:17:53 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:17:53 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:53 - Starting service [Tomcat]
+2024-12-27 13:17:53 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:17:53 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:17:53 - Root WebApplicationContext: initialization completed in 1746 ms
+2024-12-27 13:17:54 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:17:54 - HHH000026: Second-level cache disabled
+2024-12-27 13:17:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:17:54 - HikariPool-3 - Starting...
+2024-12-27 13:17:54 - HikariPool-3 - Added connection conn20: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:17:54 - HikariPool-3 - Start completed.
+2024-12-27 13:17:54 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:17:54 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:17:54 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:17:57 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:17:57 - LiveReload server is running on port 35729
+2024-12-27 13:17:57 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:17:57 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:17:57 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:17:57 - Started DemoApplication in 6.286 seconds (process running for 375.299)
+2024-12-27 13:17:57 - Condition evaluation unchanged
+2024-12-27 13:18:25 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:18:25 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:18:25 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:25 - Graceful shutdown complete
+2024-12-27 13:18:25 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:25 - HikariPool-3 - Shutdown initiated...
+2024-12-27 13:18:25 - HikariPool-3 - Shutdown completed.
+2024-12-27 13:18:25 - Starting DemoApplication using Java 21.0.5 with PID 19000 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:18:25 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:18:26 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:18:26 - Finished Spring Data repository scanning in 39 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:18:27 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:18:27 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:27 - Starting service [Tomcat]
+2024-12-27 13:18:27 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:18:27 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:18:27 - Root WebApplicationContext: initialization completed in 1432 ms
+2024-12-27 13:18:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:18:27 - HHH000026: Second-level cache disabled
+2024-12-27 13:18:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:18:27 - HikariPool-4 - Starting...
+2024-12-27 13:18:27 - HikariPool-4 - Added connection conn30: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:18:27 - HikariPool-4 - Start completed.
+2024-12-27 13:18:27 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:18:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:18:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:28 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:28 - HikariPool-4 - Shutdown initiated...
+2024-12-27 13:18:28 - HikariPool-4 - Shutdown completed.
+2024-12-27 13:18:28 - Stopping service [Tomcat]
+2024-12-27 13:18:28 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-27 13:18:30 - Starting DemoApplication using Java 21.0.5 with PID 19000 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:18:30 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:18:32 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:18:32 - Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:18:33 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:18:33 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:33 - Starting service [Tomcat]
+2024-12-27 13:18:33 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:18:33 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:18:33 - Root WebApplicationContext: initialization completed in 2831 ms
+2024-12-27 13:18:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:18:34 - HHH000026: Second-level cache disabled
+2024-12-27 13:18:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:18:34 - HikariPool-5 - Starting...
+2024-12-27 13:18:34 - HikariPool-5 - Added connection conn40: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:18:34 - HikariPool-5 - Start completed.
+2024-12-27 13:18:34 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:18:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:18:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:35 - HikariPool-5 - Shutdown initiated...
+2024-12-27 13:18:35 - HikariPool-5 - Shutdown completed.
+2024-12-27 13:18:35 - Stopping service [Tomcat]
+2024-12-27 13:18:35 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-12-27 13:18:36 - Starting DemoApplication using Java 21.0.5 with PID 19000 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:18:36 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:18:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:18:38 - Finished Spring Data repository scanning in 58 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:18:40 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:18:40 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:40 - Starting service [Tomcat]
+2024-12-27 13:18:40 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:18:40 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:18:40 - Root WebApplicationContext: initialization completed in 3380 ms
+2024-12-27 13:18:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:18:40 - HHH000026: Second-level cache disabled
+2024-12-27 13:18:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:18:40 - HikariPool-6 - Starting...
+2024-12-27 13:18:41 - HikariPool-6 - Added connection conn50: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:18:41 - HikariPool-6 - Start completed.
+2024-12-27 13:18:41 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-6)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:18:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:18:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:43 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:18:43 - LiveReload server is running on port 35729
+2024-12-27 13:18:43 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:18:43 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:43 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:18:43 - Started DemoApplication in 7.168 seconds (process running for 421.217)
+2024-12-27 13:18:43 - Condition evaluation unchanged
+2024-12-27 13:18:46 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:18:46 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:18:46 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:46 - Graceful shutdown complete
+2024-12-27 13:18:46 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:46 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:46 - HikariPool-6 - Shutdown initiated...
+2024-12-27 13:18:46 - HikariPool-6 - Shutdown completed.
+2024-12-27 13:18:47 - Starting DemoApplication using Java 21.0.5 with PID 19000 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:18:47 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:18:48 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:18:48 - Finished Spring Data repository scanning in 49 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:18:49 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:18:49 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:18:49 - Starting service [Tomcat]
+2024-12-27 13:18:49 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:18:49 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:18:49 - Root WebApplicationContext: initialization completed in 1826 ms
+2024-12-27 13:18:49 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:18:49 - HHH000026: Second-level cache disabled
+2024-12-27 13:18:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:18:49 - HikariPool-7 - Starting...
+2024-12-27 13:18:49 - HikariPool-7 - Added connection conn60: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:18:49 - HikariPool-7 - Start completed.
+2024-12-27 13:18:49 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-7)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:18:50 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:18:50 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:18:57 - Starting DemoApplication using Java 21.0.5 with PID 18580 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:18:57 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:18:58 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-27 13:18:58 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-27 13:19:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:19:01 - Finished Spring Data repository scanning in 205 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:19:05 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:19:05 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:19:05 - Starting service [Tomcat]
+2024-12-27 13:19:05 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:19:05 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:19:05 - Root WebApplicationContext: initialization completed in 7372 ms
+2024-12-27 13:19:06 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:19:06 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-27 13:19:06 - HHH000026: Second-level cache disabled
+2024-12-27 13:19:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:19:07 - HikariPool-1 - Starting...
+2024-12-27 13:19:08 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:19:08 - HikariPool-1 - Start completed.
+2024-12-27 13:19:08 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:19:10 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:19:10 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:19:14 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:19:14 - LiveReload server is running on port 35729
+2024-12-27 13:19:14 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:19:14 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:19:14 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:19:14 - Started DemoApplication in 20.316 seconds (process running for 23.095)
+2024-12-27 13:19:15 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 13:19:15 - Initializing Servlet 'dispatcherServlet'
+2024-12-27 13:19:15 - Completed initialization in 2 ms
+2024-12-27 13:25:05 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:25:05 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:25:05 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:05 - Graceful shutdown complete
+2024-12-27 13:25:05 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:05 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:25:05 - HikariPool-1 - Shutdown initiated...
+2024-12-27 13:25:05 - HikariPool-1 - Shutdown completed.
+2024-12-27 13:25:05 - Starting DemoApplication using Java 21.0.5 with PID 18580 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:25:05 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:25:07 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:25:07 - Finished Spring Data repository scanning in 133 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:25:08 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:25:08 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:08 - Starting service [Tomcat]
+2024-12-27 13:25:08 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:25:08 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:25:08 - Root WebApplicationContext: initialization completed in 2479 ms
+2024-12-27 13:25:09 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:25:09 - HHH000026: Second-level cache disabled
+2024-12-27 13:25:09 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:25:09 - HikariPool-2 - Starting...
+2024-12-27 13:25:09 - HikariPool-2 - Added connection conn10: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:25:09 - HikariPool-2 - Start completed.
+2024-12-27 13:25:09 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:25:09 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:25:09 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:25:13 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:25:14 - LiveReload server is running on port 35729
+2024-12-27 13:25:14 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:25:14 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:14 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:25:14 - Started DemoApplication in 8.477 seconds (process running for 382.371)
+2024-12-27 13:25:14 - Condition evaluation unchanged
+2024-12-27 13:25:16 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:25:16 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:25:16 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:16 - Graceful shutdown complete
+2024-12-27 13:25:16 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:16 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:25:16 - HikariPool-2 - Shutdown initiated...
+2024-12-27 13:25:16 - HikariPool-2 - Shutdown completed.
+2024-12-27 13:25:18 - Starting DemoApplication using Java 21.0.5 with PID 18580 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:25:18 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:25:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:25:21 - Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:25:21 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:25:21 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:21 - Starting service [Tomcat]
+2024-12-27 13:25:21 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:25:21 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:25:21 - Root WebApplicationContext: initialization completed in 3473 ms
+2024-12-27 13:25:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:25:22 - HHH000026: Second-level cache disabled
+2024-12-27 13:25:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:25:22 - HikariPool-3 - Starting...
+2024-12-27 13:25:22 - HikariPool-3 - Added connection conn20: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:25:22 - HikariPool-3 - Start completed.
+2024-12-27 13:25:22 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-3)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:25:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:25:22 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:25:25 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:25:25 - LiveReload server is running on port 35729
+2024-12-27 13:25:25 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:25:25 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:25 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:25:25 - Started DemoApplication in 8.246 seconds (process running for 393.828)
+2024-12-27 13:25:25 - Condition evaluation unchanged
+2024-12-27 13:25:27 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:25:27 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:25:27 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:27 - Graceful shutdown complete
+2024-12-27 13:25:27 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:27 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:25:27 - HikariPool-3 - Shutdown initiated...
+2024-12-27 13:25:27 - HikariPool-3 - Shutdown completed.
+2024-12-27 13:25:27 - Starting DemoApplication using Java 21.0.5 with PID 18580 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:25:27 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:25:28 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:25:28 - Finished Spring Data repository scanning in 26 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:25:28 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:25:28 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:28 - Starting service [Tomcat]
+2024-12-27 13:25:28 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:25:28 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:25:28 - Root WebApplicationContext: initialization completed in 1296 ms
+2024-12-27 13:25:28 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:25:28 - HHH000026: Second-level cache disabled
+2024-12-27 13:25:28 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:25:28 - HikariPool-4 - Starting...
+2024-12-27 13:25:28 - HikariPool-4 - Added connection conn30: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:25:28 - HikariPool-4 - Start completed.
+2024-12-27 13:25:28 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-4)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:25:29 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:25:29 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:25:30 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:25:30 - LiveReload server is running on port 35729
+2024-12-27 13:25:30 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:25:30 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:25:30 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:25:30 - Started DemoApplication in 3.457 seconds (process running for 398.831)
+2024-12-27 13:25:30 - Condition evaluation unchanged
+2024-12-27 13:26:41 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-12-27 13:26:41 - Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-27 13:26:41 - Pausing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:26:41 - Graceful shutdown complete
+2024-12-27 13:26:41 - Stopping ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:26:41 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:26:41 - HikariPool-4 - Shutdown initiated...
+2024-12-27 13:26:41 - HikariPool-4 - Shutdown completed.
+2024-12-27 13:26:42 - Starting DemoApplication using Java 21.0.5 with PID 18580 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:26:42 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:26:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:26:43 - Finished Spring Data repository scanning in 23 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:26:43 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:26:43 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:26:43 - Starting service [Tomcat]
+2024-12-27 13:26:43 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:26:43 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:26:43 - Root WebApplicationContext: initialization completed in 1623 ms
+2024-12-27 13:26:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:26:43 - HHH000026: Second-level cache disabled
+2024-12-27 13:26:43 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:26:43 - HikariPool-5 - Starting...
+2024-12-27 13:26:43 - HikariPool-5 - Added connection conn40: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:26:43 - HikariPool-5 - Start completed.
+2024-12-27 13:26:43 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-5)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:26:44 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:26:44 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:26:44 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:26:44 - LiveReload server is running on port 35729
+2024-12-27 13:26:45 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:26:45 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:26:45 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:26:45 - Started DemoApplication in 3.367 seconds (process running for 473.471)
+2024-12-27 13:26:45 - Condition evaluation unchanged
+2024-12-27 13:26:49 - Starting DemoApplication using Java 21.0.5 with PID 8408 (C:\Users\a935977\OneDrive - Eviden\Desktop\demo\target\classes started by a935977 in C:\Users\a935977\OneDrive - Eviden\Desktop\demo)
+2024-12-27 13:26:49 - No active profile set, falling back to 1 default profile: "default"
+2024-12-27 13:26:49 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-27 13:26:49 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-27 13:26:52 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-27 13:26:52 - Finished Spring Data repository scanning in 183 ms. Found 2 JPA repository interfaces.
+2024-12-27 13:26:55 - Tomcat initialized with port 8080 (http)
+2024-12-27 13:26:55 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:26:55 - Starting service [Tomcat]
+2024-12-27 13:26:55 - Starting Servlet engine: [Apache Tomcat/10.1.34]
+2024-12-27 13:26:56 - Initializing Spring embedded WebApplicationContext
+2024-12-27 13:26:56 - Root WebApplicationContext: initialization completed in 6416 ms
+2024-12-27 13:26:57 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-27 13:26:57 - HHH000412: Hibernate ORM core version 6.6.4.Final
+2024-12-27 13:26:57 - HHH000026: Second-level cache disabled
+2024-12-27 13:26:58 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-27 13:26:58 - HikariPool-1 - Starting...
+2024-12-27 13:26:59 - HikariPool-1 - Added connection conn0: url=jdbc:h2:file:/data/demo user=SA
+2024-12-27 13:26:59 - HikariPool-1 - Start completed.
+2024-12-27 13:26:59 - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-27 13:27:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-27 13:27:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-27 13:27:06 - H2 console available at '/h2-console'. Database available at 'jdbc:h2:file:/data/demo'
+2024-12-27 13:27:06 - LiveReload server is running on port 35729
+2024-12-27 13:27:06 - Exposing 1 endpoint beneath base path '/actuator'
+2024-12-27 13:27:06 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-12-27 13:27:06 - Initializing Servlet 'dispatcherServlet'
+2024-12-27 13:27:06 - Completed initialization in 3 ms
+2024-12-27 13:27:07 - Starting ProtocolHandler ["http-nio-8080"]
+2024-12-27 13:27:07 - Tomcat started on port 8080 (http) with context path '/'
+2024-12-27 13:27:07 - Started DemoApplication in 19.013 seconds (process running for 20.864)

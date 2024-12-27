@@ -1,0 +1,113 @@
+/* Estilos generales para la página */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7fc;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Contenedor del formulario */
+  form#signupForm {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+  }
+  
+  /* Título del formulario */
+  form#signupForm h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de los legendarios */
+  form#signupForm legend {
+    font-size: 1.2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Estilo de los párrafos y campos de entrada */
+  form#signupForm p {
+    margin-bottom: 15px;
+  }
+  
+  /* Estilo de las etiquetas */
+  form#signupForm label {
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  /* Estilo de los campos de texto (input) */
+  form#signupForm input[type="email"],
+  form#signupForm input[type="password"],
+  form#signupForm input[type="checkbox"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    box-sizing: border-box;
+    transition: border 0.3s ease-in-out;
+  }
+  
+  /* Estilo cuando los campos de texto están enfocados */
+  form#signupForm input[type="email"]:focus,
+  form#signupForm input[type="password"]:focus {
+    border-color: #4e9af1;
+    outline: none;
+  }
+  
+  /* Estilo de los campos de checkbox */
+  form#signupForm input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Estilo de la clase checkbox personalizada */
+  form#signupForm .checkbox {
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  /* Estilo para el botón de submit */
+  form#signupForm .submit {
+    width: 100%;
+    padding: 12px;
+    background-color: #4e9af1;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  /* Cambio de color en el botón al pasar el ratón */
+  form#signupForm .submit:hover {
+    background-color: #3578d4;
+  }
+  
+  /* Estilo para los mensajes de error */
+  form#signupForm .error {
+    color: #ff4c4c;
+    font-size: 12px;
+    margin-top: 5px;
+    display: block;
+  }
+  
